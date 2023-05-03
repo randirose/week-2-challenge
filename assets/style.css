@@ -1,0 +1,22 @@
+body {
+    display: flex;
+}
+header {
+    display: flex;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.about-me {
+
+}
+.my-work {
+
+}
+.contact {
+
+}
+footer {
+    
+}
