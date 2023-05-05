@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>My Portfolio</title>
     <!-- Reset CSS file link? -->
     <link rel="stylesheet" href="assets/style.css">
@@ -11,20 +11,24 @@
 
 <body>
 
-    <header class="header">
+    <header>
+        <div class="header">
+        <img src="assets/images/background-header.jpeg" style="width:100%;">
         <!-- Add background image to header -->
-        <h1>Randi's Portfolio</h1>
+        <h1 class="header-text">Randi's Portfolio</h1>
+        
         <!-- Add subheader -->
         <nav class="navigation">
             <!-- Style Nav to be inline, flex-end/right-aligned -->
             <ul>
             <!-- Use # links to scroll down on page when clicked -->
-                <li>About Me</li>
-                <li>My Work</li>
-                <li>Contact Me</li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">My Work</a></li>
+                <li><a href="#">Contact Me</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+</header>
 
     <main>
         <section class="about-me">

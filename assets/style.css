@@ -1,13 +1,71 @@
+:root {
+    /* add color scheme here */
+}
+* {
+    box-sizing: border-box;
+}
 body {
+    font-family: sans-serif;
+    margin: 0;
     display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    justify-content: flex-start;
 }
-header {
-    display: flex;
+
+.header {
+    position: relative;
+    text-align: center;
 }
-nav ul {
+
+.header-text {
+    font-size: 200%;
+    color: white;
+    position:absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.header-image {
+    height: 200px;
+    width: 100%;
+    background-image: url(assets/images/background-header.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+/* nav {
+    width: 100vw;
     display: flex;
     justify-content: flex-end;
+} */
+.navigation ul {
+    position: absolute;
+    top: 5%;
+    left: 65%;
+    padding: 2%;
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2%;
+    justify-content: flex-end;
 }
+
+.navigation a {
+    font-weight: bolder;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    display: inline-flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 5px;
+    justify-content: flex-end;
+}
+
 .about-me {
 
 }
@@ -18,5 +76,5 @@ nav ul {
 
 }
 footer {
-    
+
 }
