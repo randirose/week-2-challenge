@@ -7,18 +7,17 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    display: flex;
-    flex-direction: row;
-    min-height: 100vh;
-    justify-content: flex-start;
 }
 
 .header {
+    display: flex;
     position: relative;
-    text-align: center;
+    /* text-align: center; */
+    border-bottom: groove lightblue 5px;
 }
 
 .header-text {
+    text-shadow: 4px 4px 4px darkgray;
     font-size: 200%;
     color: white;
     position:absolute;
@@ -36,6 +35,7 @@ body {
    
 }
 
+
 /* nav {
     width: 100vw;
     display: flex;
@@ -43,34 +43,72 @@ body {
 } */
 .navigation ul {
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 65%;
     padding: 2%;
     list-style-type: none;
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 2%;
-    justify-content: flex-end;
+    /* margin: 2%; */
+    justify-content: space-between;
+    border: 50px whitesmoke;
 }
 
 .navigation a {
+    text-shadow: 4px 4px 4px darkgray;
     font-weight: bolder;
     text-decoration: none;
     white-space: nowrap;
     color: white;
     display: inline-flex;
     flex-direction: row;
-    margin: 2%;
-    padding: 5px;
+    /* margin: 2%; */
+    padding: 10px;
     justify-content: flex-end;
 }
+/* .navigation li::after {
+    content: "|";
+} */
 
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: space-between; */
+    border-right: groove lightblue 5px;
+    align: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.container h2 {
+    font-size: 200%;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-between;
+    width: 80%;
+    padding: 10px;
+}
 .about-me {
 
 }
 .my-work {
-
+    display: flex;
+    flex-wrap: wrap;
 }
 .contact {
 
