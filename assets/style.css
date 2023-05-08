@@ -48,6 +48,7 @@ body {
 .navigation a {
     text-shadow: 4px 4px 4px var(--text-background);
     font-weight: bolder;
+    font-size: 30px;
     text-decoration: none;
     color: var(--background-color2);
 }
@@ -117,4 +118,5 @@ div > p {
     border-top: groove var(--border-color) 5px;
     text-shadow: 2px 2px 2px var(--text-background);
     color: var(--background-color2);
+    font-weight: bolder;
 }
