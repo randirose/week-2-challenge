@@ -27,6 +27,10 @@ body {
     padding: 15px;
     width: 20%;
     height: 20%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: groove var(--border-color) 5px;
+    border-left: none;
 }
 
 .header p {
@@ -37,6 +41,10 @@ body {
     width: 20%;
     margin-left: 80%;
     text-shadow: 2px 2px 2px var(--text-background);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: groove var(--border-color) 5px;
+    border-right: none;
 }
 
 
@@ -80,9 +88,16 @@ body {
 }
 
 .container h2 {
+    text-shadow: 4px 4px 4px var(--text-background);
     font-size: 200%;
-    border-right: groove var(--border-color) 5px;
-    padding-right: 5%;
+    color: var(--background-color2);
+    background-color: var(--border-color);
+    padding: 15px;
+    margin-right: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: groove var(--border-color) 5px;
+    border-left: none;
     width: 20%;
     height: 100%;
 }
