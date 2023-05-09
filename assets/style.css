@@ -27,8 +27,8 @@ body {
     padding: 15px;
     width: 20%;
     height: 20%;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     border: groove var(--border-color) 5px;
     border-left: none;
 }
@@ -41,10 +41,21 @@ body {
     width: 20%;
     margin-left: 80%;
     text-shadow: 2px 2px 2px var(--text-background);
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     border: groove var(--border-color) 5px;
     border-right: none;
+}
+
+.header-image {
+    position:absolute;
+    /* height: 150px;
+    width: 150px; */
+    top: 2%;
+    left: 46%;
+    /* right: 46%; */
+    border: groove var(--border-color) 5px;
+    border-radius: 10px;
 }
 
 
@@ -94,8 +105,8 @@ body {
     background-color: var(--border-color);
     padding: 15px;
     margin-right: 10px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     border: groove var(--border-color) 5px;
     border-left: none;
     width: 20%;
@@ -109,11 +120,12 @@ div > p {
 }
 
 .container img {
-    position: relative;
     box-sizing: border-box;
-    padding: 10px;
+    /* padding: 10px; */
     width: 100px;
     object-fit: contain;
+    border: groove var(--border-color) 5px;
+    border-radius: 5px;
 }
 
 .content-container {
