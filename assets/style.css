@@ -132,6 +132,7 @@ body {
     border-radius: 5px;
 }
 
+
 .images-box {
     display: flex;
     flex-wrap: wrap;
@@ -158,6 +159,13 @@ body {
     /* flex: 2 1 200px; */
 
 }
+.first-image:hover {
+    filter: grayscale(100%);
+}
+.other-image:hover {
+    filter: grayscale(100%);
+}
+
 
 .other-image {
     width: auto;
