@@ -224,15 +224,17 @@ body {
     text-decoration: none;
 }
 
+.contact-me-links a:visited {
+    text-decoration: none;
+    color: darkslategray;
+}
+
 .contact-me-links a:hover {
     color: #e38150;
     text-decoration: none;
 }
 
-.contact-me-links a:visited {
-    color: #b6cdbd;
-    text-decoration: none;
-}
+
 
 #email a::after {
     content: " ✉️"
