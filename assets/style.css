@@ -17,6 +17,7 @@ body {
 .header {
     background-color: var(--background-color);
     border-bottom: groove var(--border-color) 5px;
+    position: relative;
 }
 
 .header-text {
@@ -52,7 +53,7 @@ body {
     /* height: 150px;
     width: 150px; */
     top: 2%;
-    left: 46%;
+    left: 45.5%;
     /* right: 46%; */
     border: groove var(--border-color) 5px;
     border-radius: 10px;
@@ -113,7 +114,7 @@ body {
     height: 100%;
 }
 
-div > p {
+.container p {
     /* font styling */
     padding-left: 2%;
     padding-top: 2%;
@@ -122,10 +123,17 @@ div > p {
 .container img {
     box-sizing: border-box;
     /* padding: 10px; */
-    width: 100px;
+    width: 200px;
     object-fit: contain;
     border: groove var(--border-color) 5px;
     border-radius: 5px;
+}
+
+.my-work-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 2%;
 }
 
 .content-container {
