@@ -36,7 +36,7 @@ body {
     border-left: none;
 }
 
-.header p {
+.header h2 {
     background-color: var(--border-color);
     color: var(--background-color2);
     padding: 15px;
@@ -102,7 +102,7 @@ body {
     /* position: relative; */
 }
 
-.container h2 {
+.container h3 {
     text-shadow: 4px 4px 4px var(--text-background);
     font-size: 200%;
     color: var(--background-color2);
