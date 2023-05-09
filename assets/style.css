@@ -195,6 +195,10 @@ body {
     border: groove var(--border-color) 5px;
     border-left: none;
 }
+
+.image-title::after {
+    content: " »";
+}
 .footer {
     background-color: var(--background-color);
     text-align: center;
