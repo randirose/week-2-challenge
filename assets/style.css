@@ -193,10 +193,16 @@ body {
     /* margin-right: 10%; */
     /* width: 20%;
     height: 20%; */
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     border: groove var(--border-color) 5px;
     border-left: none;
+}
+
+.image-title h3 {
+    text-shadow: 4px 4px 4px var(--text-background);
+    color: var(--background-color2);
+    font-size: 50%;
 }
 
 .image-title::after {
