@@ -75,6 +75,10 @@ body {
     color: var(--background-color2);
 }
 
+.navigation a:hover {
+    color: #e38150;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
