@@ -126,7 +126,7 @@ body {
 .container p {
     padding-left: 2%;
     padding-top: 2%;
-    font-size: 20px;
+    font-size: 24px;
     font-family: sans-serif;
     color: var(--dark-gray);
     width: 60%;
@@ -305,7 +305,7 @@ body {
         font-size: 25px;
     }
     .container p {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 1.5;
         width: 100%;
     }
@@ -383,7 +383,7 @@ body {
         font-size: 25px;
     }
     .container p {
-        font-size: 17px;
+        font-size: 18px;
         line-height: 2;
     }
     .container h3 {
