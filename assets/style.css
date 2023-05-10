@@ -57,10 +57,12 @@ body {
     border-right: none;
 }
 
+/* avatar is centered absolute in the middle (width) of the header element */
 .header-image {
     position:absolute;
     top: 2%;
-    left: 45%;
+    left: 50%;
+    margin-left: -87.5px;
     border: var(--border);
     border-radius: 10px;
 }
@@ -80,9 +82,8 @@ body {
     text-decoration: none;
     color: var(--offwhite);
 }
-.nav-links {
-    display: inline-flex;
-}
+
+/* changes the color of the nav links to a burnt orange color when hovering over them */
 .navigation a:hover {
     color: var(--hover-color);
 }
@@ -170,6 +171,7 @@ body {
     position: relative;
 }
 
+/* adds grayscale effect when hovering over image links */
 .first-image:hover {
     filter: grayscale(100%);
 }
@@ -177,6 +179,7 @@ body {
     filter: grayscale(100%);
 }
 
+/* image titles use absolute positioning to lay on top of image */
 .image-title {
     position: absolute;
     top: 20%;
@@ -196,6 +199,7 @@ body {
     font-size: 50%;
 }
 
+/* this psuedo class is used to add the double right arrow to the end of the image titles */
 .image-title::after {
     content: " »";
 }
@@ -218,6 +222,7 @@ body {
     font-size: 30px;
 }
 
+/* these pseudo classes make it so the text does not have auto styling from being links, either before or after visiting, and make it the same burnt orange color as the nav links when hovering */
 .contact-me-links a:link {
     color: var(--dark-gray);
     text-decoration: none;
@@ -234,7 +239,7 @@ body {
 }
 
 
-
+/* these pseudo elements add icons to the end of the contact links */
 #email a::after {
     content: " ✉️"
 }
@@ -260,6 +265,8 @@ body {
 .featured-image2 {
     display: none;
 }
+
+/* media queries below change layout to column instead of row for smaller screens, adjusts sizes of text/images, margins, layout and size of headers, etc. */
   
   /* larger smartphones or small tablets */
   @media screen and (max-width: 768px) {
@@ -271,6 +278,7 @@ body {
     .header {
         display: flex;
         flex-direction: column;
+        position: relative;
     }
     .header-text {
         font-size: 125%;
@@ -287,13 +295,13 @@ body {
     .header-image {
         position:absolute;
         top: 5%;
-        left: 35%;
+        left: 50%;
+        margin-left: -87.5px;
         border: var(--border);
         border-radius: 10px;
     }
     .navigation ul {
         display: inline-flex;
-        /* flex-direction: column; */
         justify-content: space-around;
         flex-wrap: wrap;
         row-gap: 2px;
@@ -350,6 +358,7 @@ body {
     .header {
         display: flex;
         flex-direction: column;
+        position: relative;
     }
    
     .header h2 {
@@ -365,14 +374,14 @@ body {
     .header-image {
         position:absolute;
         top: 5%;
-        left: 40%;
+        left: 50%;
+        margin-left: -87.5px;
         border: var(--border);
         border-radius: 10px;
     }
     .navigation ul {
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         align-items: center;
         flex-wrap: wrap;
         row-gap: 2px;
