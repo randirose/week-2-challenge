@@ -38,6 +38,6 @@ and access and view the repository here: https://github.com/randirose/week-2-cha
 ## Features
 
 Extra features on this application include:  
-Hover pseudo-classes on nav links and contact links
-Hover grayscale pseudo-class on images
+Hover pseudo-classes on nav links and contact links  
+Hover grayscale pseudo-class on images  
 Use of pseudo-elements - ::after - for contact icons
