@@ -68,9 +68,10 @@ body {
 }
 
 
-.navigation ul {
-    display: inline-flex;
+.navigation {
+    display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     list-style-type: none;
     width: 100%;
 }
@@ -213,7 +214,7 @@ body {
 }
 
 .contact-me-links {
-    display: inline-flex;
+    display: flex;
     justify-content: space-evenly;
     font-family: sans-serif;
     color: var(--dark-gray);
@@ -262,6 +263,7 @@ body {
     font-size: 200%;
 }
 
+/* the smaller featured image in the html is hidden until the screen is made smaller per the media queries below */
 .featured-image2 {
     display: none;
 }
@@ -270,11 +272,6 @@ body {
   
   /* larger smartphones or small tablets */
   @media screen and (max-width: 768px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-
     .header {
         display: flex;
         flex-direction: column;
@@ -300,17 +297,15 @@ body {
         border: var(--border);
         border-radius: 10px;
     }
-    .navigation ul {
-        display: inline-flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        row-gap: 2px;
-        list-style-type: none;
-        width: 75%;
-    }
+    
 
     .navigation a {
         font-size: 25px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
     }
     .container p {
         font-size: 20px;
@@ -325,8 +320,9 @@ body {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 75%;
     }
+
+    /* code below allows the larger image to be switched out with the smaller image in the html for media queries */
     .featured-image1 {
         display: none;
     }
@@ -350,11 +346,6 @@ body {
   
   /* Smaller smartphones */
   @media screen and (max-width: 576px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-
     .header {
         display: flex;
         flex-direction: column;
@@ -379,17 +370,21 @@ body {
         border: var(--border);
         border-radius: 10px;
     }
-    .navigation ul {
-        display: flex;
+    .navigation {
+        display:flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        row-gap: 2px;
-        list-style-type: none;
-        width: 100%;
+        row-gap: 2px;    
     }
+
     .navigation a {
         font-size: 25px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
     }
     .container p {
         font-size: 18px;
@@ -405,6 +400,8 @@ body {
         flex-wrap: wrap;
         padding: 1px;
     }
+
+    /* code below allows the larger image to be switched out with the smaller image in the html for media queries */
     .featured-image1 {
         display: none;
     }
