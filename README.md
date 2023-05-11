@@ -40,7 +40,8 @@ This was the screenshot gif of a mockup for this project:
 
 ## Features
 
-Extra features on this application include:  
-Hover pseudo-classes on nav links and contact links  
-Hover grayscale pseudo-class on images  
-Use of pseudo-elements - ::after - for contact icons
+Additional features on this application include:  
+- Hover pseudo-classes on nav links and contact links  
+- Hover grayscale pseudo-class on images  
+- Use of pseudo-elements - ::after - for contact icons and image title arrows
+- Multiple breakpoints for media queries with changes in font size, formatting, and image sizes to make the webpage more readable on multiple devices
