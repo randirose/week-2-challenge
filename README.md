@@ -35,6 +35,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 You can view the live site on GitHub Pages here: https://randirose.github.io/week-2-challenge   
 and access and view the repository here: https://github.com/randirose/week-2-challenge  
 
+This was the screenshot gif of a mockup for this project:
+![Mockup Portfolio Webpage](assets/images/Mockup.gif)
+
 ## Features
 
 Extra features on this application include:  
